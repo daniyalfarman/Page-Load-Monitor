@@ -100,12 +100,6 @@ Contributions are welcome! If you'd like to contribute to this project, please:
 
 ---
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
 ## Support
 
 If you have any questions or need help, please open an issue in this repository or contact the maintainer.
