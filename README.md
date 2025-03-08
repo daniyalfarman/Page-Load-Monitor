@@ -106,6 +106,13 @@ If you have any questions or need help, please open an issue in this repository 
 
 ---
 
+## Screenshots
+<img width="372" alt="Screenshot 2025-03-08 at 2 33 58 PM" src="https://github.com/user-attachments/assets/f5d55511-9bf4-4b77-b92f-ad855b4a43b4" />
+<img width="1101" alt="Screenshot 2025-03-08 at 2 34 40 PM" src="https://github.com/user-attachments/assets/3e7795b3-3f0d-489a-b279-4d4681ba6053" />
+
+
+---
+
 Enjoy using the **Load Monitor** Chrome extension! 🚀
 
 ---
