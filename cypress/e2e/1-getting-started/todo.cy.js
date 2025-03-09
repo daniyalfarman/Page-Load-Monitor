@@ -6,6 +6,6 @@ describe("Dummy Test Case", () => {
     cy.visit("https://example.com");
 
     // Assert that the page title is correct
-    cy.title().should("eq", "Example Domain");
+    cy.title().should("eq", "Example Testing Domain");
   });
 });
