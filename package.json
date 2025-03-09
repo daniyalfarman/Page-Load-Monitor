@@ -1,0 +1,15 @@
+{
+  "name": "page-load-monitor",
+  "version": "1.0.0",
+  "description": "The **Load Monitor** Chrome extension is designed to monitor the load times of web pages, capture network information, and display the details in a user-friendly popup interface. It is particularly useful for developers and performance enthusiasts who want to track page performance metrics in real-time.",
+  "main": "background.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^14.1.0"
+  }
+}

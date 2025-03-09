@@ -1,0 +1,34 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - main  # Run tests when code is pushed to the main branch
+  pull_request:
+    branches:
+      - main  # Run tests when a pull request is opened against the main branch
+
+jobs:
+  cypress-run:
+    runs-on: ubuntu-latest  # Use the latest Ubuntu environment
+
+    steps:
+      # Check out the repository
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Install Node.js
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18  # Use Node.js 18
+
+      # Install dependencies
+      - name: Install dependencies
+        run: npm install
+
+      # Run Cypress tests
+      - name: Run Cypress tests
+        uses: cypress-io/github-action@v5
+        with:
+          browser: chrome  # Run tests in Chrome
